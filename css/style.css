@@ -1,0 +1,94 @@
+#Adweek_Recent_Post_Container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 742px;
+}
+
+#Adweek_Recent_Post_Container img {
+  width: 186px;
+  height: 150px;
+  border-radius: 3px;
+  margin: 10px 20px;
+  float: left;
+}
+
+#Adweek_Recent_Post_Container h1 {
+  font-family: 'Helvetica Neue Bold';
+  font-size: 26px;
+  font-weight: 900;
+  color: #333;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+#Adweek_Recent_Post_Container h2 {
+  font-family: 'Helvetica Neue Bold';
+  font-size: 14px;
+  font-weight: 900;
+  color: #bbb;
+  text-transform: uppercase;
+  margin: 0px;
+  display: inline-block;
+}
+
+#Adweek_Recent_Post_Container h3 {
+  font-family: 'Helvetica Neue Light';
+  font-size: 13px;
+  color: #bbb;
+  margin: 0px;
+}
+
+#Adweek_Recent_Post_Container h3 div {
+  display: inline;
+  margin: 0px 3px 0px 5px;
+}
+
+#Adweek_Recent_Post_Container h3 span {
+  color: #ff0000;
+}
+
+#Adweek_Mobile_Info {
+  display: none;
+}
+
+#Adweek_Dekstop_Info {
+  display: inline-block;
+}
+
+
+/*Media Query-----------------------*/
+
+@media only screen and (max-width: 728px){
+
+#Adweek_Recent_Post_Container h1 {
+  font-size: 17px;
+}
+
+#Adweek_Recent_Post_Container h2 {
+  font-size: 9px;
+}
+
+#Adweek_Recent_Post_Container h3 {
+  font-family: 'Helvetica Neue Light';
+  font-size: 9px;
+  color: #999;
+}
+
+#Adweek_Recent_Post_Container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 3px;
+  margin: 10px 15px 10px 20px;
+}
+
+#Adweek_Mobile_Info {
+  display: inline-block;
+}
+
+#Adweek_Desktop_Info {
+  display: none;
+} 
+
+}
+
